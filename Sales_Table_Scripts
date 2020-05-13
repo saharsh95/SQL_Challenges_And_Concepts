@@ -1,0 +1,27 @@
+/****** Object:  Table [dbo].[sales]    Script Date: 5/13/2020 10:32:03 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[sales](
+	[ID] [int] NULL,
+	[DisplayName] [varchar](30) NULL,
+	[InvoiceName] [varchar](30) NULL,
+	[ActualName] [varchar](30) NULL,
+	[Category] [varchar](20) NULL,
+	[Amount] [float] NULL
+) ON [PRIMARY]
+GO
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (101, N'Nik_Coolpix', N'CPX', N'Nikon Coolpix Series', N'Camera', 40000)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (102, N'Bravia32LED', N'SonyB32LED', N'Sony Bravia 32 Inch LED', N'TV', 55000)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (103, N'OnePlus8Pro 12GB', N'OP8P12GB', N'OnePlus 8 Pro Series 12 GB RAM', N'Smartphone', 80000)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (104, N'CanonDigiCam', N'CANDG', N'Canon Digital Camera', N'Camera', 35000)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (105, N'OnePlus7T 8GB', N'OP7T8GB', N'OnePlus 7T Series 8 GB RAM', N'Smartphone', 40000)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (106, N'LGAqua55OLED', N'LGAQ55OLED', N'LG Aqua 55 Inch OLED Display', N'TV', 120000)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (107, N'Galaxy S10', N'SAMGXS10', N'Samsung Galaxy S10 Series', N'Smartphone', 75000)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (108, NULL, N'NIKD3400', N'Nikon D3400 Series', N'Camera', 42000)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (109, NULL, N'ScreenGuard', NULL, N'Smartphone', 1200)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (110, NULL, N'BackCover', NULL, N'Smartphone', 500)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (111, NULL, N'Voucher', N'Electronic Voucher for TV', N'TV', 5000)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (112, NULL, NULL, NULL, N'Smartphone', NULL)
+INSERT [dbo].[sales] ([ID], [DisplayName], [InvoiceName], [ActualName], [Category], [Amount]) VALUES (113, N'', NULL, NULL, N'TV', NULL)
